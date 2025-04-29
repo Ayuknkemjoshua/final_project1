@@ -1,0 +1,760 @@
+body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    width: 98%;
+  }
+  
+  .btn-1,
+  .btn-2 {
+    display: none;
+  }
+  
+  .col {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  header {
+    background-color: #043873;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -25px;
+    height: 100px;
+    padding-top: 40px;
+  }
+  
+  .logo {
+    height: 3vh;
+    border: 1px;
+    margin-left: 10px;
+    margin-top: 21px;
+    margin-right: 5px;
+  }
+  
+  .fa-bars {
+    margin: 20px;
+    border: 1;
+  }
+  
+  .page-8 {
+    display: none;
+  }
+  
+  .navlinks {
+    display: none;
+  }
+  
+  .client-2,
+  .client-3 {
+    display: none;
+  }
+  
+  .landing-page1,
+  .landing-page2,
+  .landing-page3,
+  .landing-page4,
+  .landing-page5,
+  .landing-page6 {
+    background-color: #043873;
+    color: aliceblue;
+    border: 1px;
+    padding-bottom: 20px;
+    padding-top: 90px;
+    /* position: relative; */
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .landing-page1 {
+    background-image: url("./Element.svg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .landing-page4 {
+    background-image: url("./Element.svg");
+    background-position: center;
+    background-size: cover;1">
+    <div>
+        <h2>The Best Platform for Car Rental</h2>
+        <p>Ease of doing a car rental safely and reliably. Of course at a low price.</p>
+        <button>Rental Car</button>
+    </div>
+  
+  }
+  
+  .landing-page5 {
+    padding: 20px;
+  }
+  
+  .landing-page6 {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .page,
+  .page-2,
+  .page-3,
+  .page-4,
+  .page-5,
+  .page-6,
+  .page-7 {
+    background-position-x: left;
+    background-size: contain;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .badge,
+  .badge-4 {
+    width: 80%;
+  }
+  
+  .badge-1,
+  .badge-2,
+  .badge-3,
+  .badge-5,
+  .badge-6 {
+    width: 50%;
+    padding-left: 120px;
+  }
+  
+  .page-2 {
+    text-align: center;
+    padding-top: 50px;
+  
+    .work-together-img {
+      width: 100%;
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+  }
+  
+  .img {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .stat,
+  .stat1 {
+    text-align: center;
+  }
+  
+  .btn {
+    border: 1px;
+    height: 40px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #4f9cf9;
+    color: aliceblue;
+  }
+  
+  .blog {
+    border: 1px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4f9cf9;
+    color: aliceblue;
+    margin-top: 30px;
+    width: 40%;
+  }
+  
+  .container {
+    border: 1px;
+    height: 200px;
+    width: 85%;
+    background-color: #c4defd;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .price-board,
+  .price-board-third {
+    display: none;
+  }
+  
+  .price-board-second {
+    background-color: #043873;
+    color: aliceblue;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    height: 600px;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .fa-check-square-o {
+    color: #ffe492;
+    padding: 10px;
+  }
+  
+  .co,
+  .money {
+    color: #ffe492;
+  }
+  
+  .list,
+  .amt {
+    text-align: start;
+    padding-left: 20px;
+  }
+  
+  .slid {
+    padding: 60px;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .Apple.png,
+  .Microsoft.png,
+  .Slack.png,
+  .google.png {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 20px;
+  }
+  
+  .comt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: start;
+    padding-top: 20px;
+  }
+  
+  .avt {
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: start;
+    padding-top: 50px;
+  }
+  
+  .client-1 {
+    border: 2px;
+    box-shadow: 2px 2px 5px gray;
+    padding: 20px;
+    width: 85%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+  
+  .fa-quote-left {
+    color: #043873;
+  }
+  
+  .fa-apple,
+  .fa-windows,
+  .fa-android {
+    padding: 10px;
+  }
+  
+  .icon {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .hero {
+    display: flex;
+    padding: 45px;
+  }
+  
+  .landing-page3 {
+    display: flex;
+    justify-content: start;
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .web {
+    padding: 10px;
+    border: 1px;
+    border-top: 1px solid gray;
+  }
+  
+  .fa-facebook,
+  .fa-twitter,
+  .fa-linkedin {
+    padding: 10px;
+  }
+  
+  h5,
+  .h3 {
+    padding-top: 50px;
+  }
+  
+  @media (min-width: 768px) {
+    .landing-page1 {
+      background-image: url("./tablet.png");
+      background-position: top;
+      background-size: auto;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  
+    .landing-page6 {
+      text-align: start;
+    }
+  
+    .container {
+      border: 1px;
+      width: 94%;
+      height: 367px;
+    }
+  
+    .btn {
+      border: 1px;
+      height: 30px;
+      text-align: center;
+      padding: 40px;
+      border-radius: 5px;
+      background-color: #4f9cf9;
+      color: aliceblue;
+      margin-top: 50px;
+    }
+  
+    .stat {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  
+    /* page1 */
+  
+    .badge,
+    .badge-4 {
+      width: 45%;
+      padding-left: 155px;
+    }
+  
+    /* page2 */
+  
+    .badge-1 {
+      width: 25%;
+      padding-left: 120px;
+    }
+  
+    .badge-2 {
+      width: 25%;
+      padding-left: 250px;
+    }
+  
+    .badge-3 {
+      width: 25%;
+      padding-left: 400px;
+    }
+  
+    .badge-5 {
+    }
+  
+    .badge-6 {
+      width: 25%;
+      padding-left: 120px;
+    }
+  
+    .work-together-img {
+      width: 100%;
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+  
+    .card {
+      display: flex;
+      flex-direction: row;
+      gap: 27rem;
+    }
+  
+    .amt {
+      text-align: start;
+      padding-left: -50px;
+    }
+  
+    .price-list {
+      width: 50%;
+      display: flex;
+      justify-items: center;
+      padding-left: 170px;
+    }
+  
+    .landing-page3 {
+      padding-right: 200px;
+  
+      /* background-image: url('./Group.jpg');  */
+    }
+  
+    .stat-1 {
+      padding-left: 10px;
+    }
+  
+    .badge-4 {
+      width: 40%;
+      padding-left: 1px;
+    }
+  
+    .badge-5 {
+      width: 30%;
+    }
+  
+    .landing-page4 {
+      background-image: url("./tablet.png");
+      background-position: top;
+      background-size: auto;
+      padding-bottom: 100px;
+      text-align: center;
+    }
+  
+    .page-7 {
+      display: none;
+    }
+  
+    .users {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    .box-2 {
+      border: 1px;
+      background-color: #f8f9fb;
+      border-radius: 5px;
+      width: 80%;
+      padding: 10px;
+      box-shadow: 2px 2px 5px gray;
+    }
+  
+    .box-1,
+    .box-3 {
+      border: 1px;
+      background-color: #4f9cf9;
+      border-radius: 5px;
+      width: 80%;
+      padding: 10px;
+    }
+  
+    .users {
+      padding: 30px;
+      text-align: center;
+    }
+  
+    .page-8 {
+      display: contents;
+      text-align: center;
+      padding-top: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .fa-star {
+      color: yellow;
+      padding-top: 50px;
+    }
+  
+    .info {
+      display: flex;
+      padding-bottom: 40px;
+    }
+  
+    .input {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      padding-top: 50px;
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (min-width: 1152px) {
+    .card {
+      display: flex;
+      flex-direction: row;
+      gap: 48rem;
+    }
+  
+    .btn-1,
+    .btn-2 {
+      display: contents;
+      border: 1px;
+      height: 40px;
+      text-align: center;
+      padding: 30px;
+      border-radius: 5px;
+      background-color: #4f9cf9;
+      color: aliceblue;
+    }
+  
+    .connect {
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .navlinks {
+      display: inline;
+      display: flex;
+      gap: 2rem;
+      padding-top: 25px;
+      padding-right: 10px;
+    }
+  
+    .nav-bar {
+      display: inline;
+      display: flex;
+      margin-top: -5px;
+    }
+  
+    .btn-1,
+    .btn-2 {
+      display: inline;
+      border: 1px;
+      height: 40px;
+      text-align: center;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  
+    .btn-1 {
+      background-color: #ffe492;
+      color: #043873;
+    }
+  
+    .btn-2 {
+      background-color: #4f9cf9;
+      color: white;
+    }
+  
+    .fa-bars {
+      display: none;
+    }
+  
+    .logo {
+      height: 3vh;
+      border: 1px;
+      margin-left: 10px;
+      margin-top: px;
+      margin-right: 5px;
+    }
+  
+    .landing-page1 {
+      background-image: url("./Element.jpeg");
+      background-position: center;
+      background-size: cover;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .landing-page3 {
+      background-image: url("./BACKGROUND.png1");
+      background-position: center;
+      background-size: cover;
+    }
+  
+    .page-5 {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  
+    .clipper {
+      align-items: start;
+    }
+  
+    .container {
+      margin-top: 20px;
+    }
+  
+    .stat {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .stat1 {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  
+    .pack {
+      margin-top: 100px;
+    }
+  
+    .page-2 {
+      text-align: center;
+      padding-top: 50px;
+  
+      .work-together-img {
+        width: 50%;
+        padding-top: 70px;
+        padding-bottom: 70px;
+      }
+    }
+  
+    .page-5 {
+      text-align: start;
+    }
+  
+    .landing-page4 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background-image: url("./Element.jpeg");
+      background-position: center;
+      background-size: cover;
+    }
+  
+    .landing-page5 {
+      text-align: center;
+    }
+  
+    .landing-page6 {
+      text-align: center;
+    }
+  
+    .pros {
+      display: flex;
+      flex-direction: row;
+      gap: 5rem;
+    }
+  
+    .job {
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid gray;
+      margin-top: 20px;
+    }
+  
+    .col-1 {
+      text-align: start;
+    }
+  
+    .page-8 {
+      display: none;
+    }
+  
+    .avt {
+      border-top: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      text-align: start;
+      padding-top: 50px;
+    }
+  
+    .app {
+      display: flex;
+      flex-direction: row;
+      gap: 3rem;
+    }
+  
+    .badge-3 {
+      width: 65%;
+      padding-left: 60px;
+    }
+  
+    .badge-2 {
+      width: 55%;
+      padding-left: 170px;
+    }
+  
+    .price-board,
+    .price-board-third {
+      display: inline;
+    }
+  
+    .price-list {
+      width: fit-content;
+      margin-left: -150px;
+      display: flex;
+      justify-items: center;
+      gap: 5rem;
+    }
+  
+    .price-board-second {
+      background-color: #043873;
+      color: aliceblue;
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+      padding-bottom: 40px;
+      border-radius: 10px;
+      height: 670px;
+      align-items: flex-start;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .stat-1 {
+      text-align: center;
+      padding-left: 200px;
+    }
+  
+    .page-7 {
+      background-position-x: left;
+      background-size: contain;
+      text-align: center;
+      padding-top: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+      display: inline;
+    }
+  
+    .client-2,
+    .client-3 {
+      display: inline;
+      border: 2px;
+      width: 30%;
+    }
+  
+    .web {
+      padding-top: 35px;
+      border: 1px;
+      border-top: 1px;
+    }
+    .blog {
+      justify-content: start;
+    }
+    .fa {
+      display: none;
+    }
+  
+    .extra {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .client-1,
+    .client-2,
+    .client-3 {
+      border: 2px;
+      box-shadow: 2px 2px 5px gray;
+      padding: 20px;
+      width: 35%;
+      margin-bottom: 40px;
+      border-radius: 10px;
+    }
+  }
+  
